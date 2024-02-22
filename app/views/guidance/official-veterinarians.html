@@ -1,0 +1,240 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  General OV information
+{% endblock %}
+
+{% block header %}
+  <!-- Blank header with no service name for this page -->
+  {{ govukHeader() }}
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "#"
+      },
+      {
+        text: "Section",
+        href: "#"
+      },
+      {
+        text: "Subsection"
+      }
+    ]
+  }) }}
+
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <span class="govuk-caption-l">Guidance</span>
+
+      <h1 class="govuk-heading-l">How to become an Official Veterinarian</h1>
+
+      <p class="govuk-body-l">How to authorise and register as an Official Veterinarian (OV), and maintain your OV records.</p>
+
+             
+        <div class="app-c-published-dates " lang="en">
+          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+          <p class="govuk-body-s" style="margin-bottom: 10px">From: <a href="#">Animal Plant and Health Agency</a></p>
+          <p class="govuk-body-s" style="margin-bottom: 10px">Published 9 November 2023</p>
+          <p class="govuk-body-s" style="margin-bottom: 10px">Last updated 29 January 2024 — <a href="#">See all updates</a></p>
+          </p>
+        </div>
+
+        &nbsp;
+
+      <aside class="govuk-prototype-kit-common-templates-mainstream-guide-contents-list" role="complementary">
+        <nav class="govuk-prototype-kit-common-templates-contents-list" aria-label="Pages in this guide" role="navigation">
+          <h2 class="govuk-prototype-kit-common-templates-contents-list__title">Contents</h2>
+          <ol class="govuk-prototype-kit-common-templates-contents-list__list">
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed govuk-prototype-kit-common-templates-contents-list__list-item--active"><a href="#how-become-ov">How to become an OV</a></li>
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#new-practice">Setting up a new practice</a></li>
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#maintaining-records">Maintaining your OV records</a></li>
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#stop-being-ov">How to stop being an OV</a></li>
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#contact">Contact information</a></li>
+          </ol>
+        </nav>
+      </aside>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds govuk-prototype-kit-common-templates-mainstream-guide-body">
+      
+      <h2 class="govuk-heading-m"></h2>
+
+      <p>Official Veterinarians (OVs) are private practice veterinarians who are qualified to deliver government-funded statutory testing and other veterinarian services on behalf of the <a href="https://www.gov.uk/government/organisations/animal-and-plant-health-agency">Animal and Plant Health Agency (APHA)</a>.</p>
+      
+      <!-- <p>An official veterinarian (OV) is a private practice veterinarian who is authorised to carry out government-funded statutory testing and other veterinarian services on behalf of the <a href="https://www.gov.uk/government/organisations/animal-and-plant-health-agency">Animal and Plant Health Agency (APHA)</a>.</p> -->
+
+
+
+      <h2 class="govuk-heading-m" id="how-become-ov">How to become an OV</h2>
+      <p>To become an OV you must <a href="https://improve-ov.com/registration/">register with Improve International</a> and complete the relevant Official Controls Qualification (Veterinary) training.</p>
+
+      <p><a href="https://www.improve-ov.com/qualifications/about.php">Learn more about the different OV qualifications</a>.</p>
+
+      <!-- <h3 class="govuk-heading-s">Maintaining your OV qualification</h3> -->
+
+      <p>APHA will grant your OV authorisation when you have completed the training. Authorisation can take up to 10 working days. You will be notified by email when it has been granted.</p>
+
+      <p><i>Getting a stamp - what a stamp is</i></p>
+
+      <!-- Costs section needs to be checked -->
+
+      <h3 class="govuk-heading-s">OV training costs</h3>
+
+      <p>You or your employer will be responsible for training costs. Prospective and current OVs working in Scotland may be eligible to claim a Scottish Government funded code for OCQ(V) - SS and OCQ(V) - TT training.</p>
+
+      <h3 class="govuk-heading-s">Maintaining your OV qualification</h3>
+
+      <p><i>How OVs can maintain their qualifications</i></p>
+
+      <p><i>What happens if the OV qualifications are not maintained</i></p>
+
+      <p><i>How to revalidate a lapsed OV qualification</i></p>
+
+
+
+      <h2 class="govuk-heading-m" id="new-practice">Setting up a new practice</h2>
+
+      <p><i>What to do if you're setting up a new practice</i></p>
+
+      <h3 class="govuk-heading-s">Registering with APHA</h3>
+
+      <p><i>What new OVs and ATTs need to do re APHA registration</i></p>
+
+      <p><i>The steps to follow to register for APHA</i></p>
+
+      <p><i>What to do if your practice will be TB testing</i></p>
+
+      <h3 class="govuk-heading-s">Sam</h3>
+
+      <p><i>What Sam is</i></p>
+
+      <p><i>How to get set up on Sam</i></p>
+
+
+
+      <h2 class="govuk-heading-m" id="maintaining-records">Maintaining your OV records</h2>
+
+      <p><i>How your OV records are stored and maintained</i></p>
+
+      <p><i>What you need to do if you want to change your name during your appointment</i></p>
+
+      <p><i>How long the name change process takes</i></p>
+
+      <p><i>Where to find updated certificates after a name change</i></p>
+
+      <h3 class="govuk-heading-s">What to do if you need a new stamp</h3>
+
+      <p><i>What to do if your stamp has been lost or damaged</i></p>
+
+      <p><i>What to do if your stamp has been stolen</i></p>
+
+      <p><i>How long it will take to get a stamp</i></p>
+
+
+
+      <h2 class="govuk-heading-m" id="stop-being-ov">How to stop being an OV</h2>
+
+      <p><i>Why you might need to deregister as an OV - for example if you leave your practice</i></p>
+
+      <p><i>How to deregister as an OV</i></p>
+
+      <p><i>What happens after OV55 has been processed</i></p>
+
+      <p><i>How long it takes to process OV leaving information</i></p>
+
+
+
+      <h2 class="govuk-heading-m" id="contact">Contact information</h2>
+
+      <p><i>Contact information for APHA's OV team</i></p>
+
+      <p><i>Contact information for Improve International</i></p>
+
+
+
+      <!-- <p>To become an OV you must:</p>
+      <ol class="govuk-list govuk-list--number">
+        <li><a href="https://improve-ov.com/registration/">register with Improve International</a></li>
+        <li>enrol for the relevant Official Controls Qualification (Veterinary) training</li>
+        <li>complete the training</li>
+      </ol> -->
+
+      <!-- <p>OCQ(V)s are administered by Improve International on behalf of APHA. You should contact Improve International if you have any questions about training or retraining.</p> -->
+
+      <p></p>
+
+      <nav class="govuk-prototype-kit-common-templates-pagination" role="navigation" aria-label="Pagination">
+
+      <!-- {{ govukPagination({
+        previous: {
+          labelText: "Page 1 title",
+          href: "#"
+        },
+        next: {
+          labelText: "Page 3 title",
+          href: "#"
+        }
+      }) }} -->
+
+      <!-- <p>
+        <a href="#">
+          View a printable version of the whole guide
+        </a>
+      </p> -->
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+
+      <aside class="govuk-prototype-kit-common-templates-related-items" role="complementary">
+        <h2 class="govuk-heading-m" id="subsection-title">
+          Subsection
+        </h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="govuk-list govuk-!-font-size-16">
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#" class="govuk-!-font-weight-bold">
+                More <span class="govuk-visually-hidden">in Subsection</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+    </div>
+
+  </main>
+</div>
+
+
+
+
+
+    </div>
+  </div>
+
+{% endblock %}
