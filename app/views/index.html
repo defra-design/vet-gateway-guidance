@@ -6,12 +6,50 @@
 
 {% block content %}
 
-<p><a href="http://localhost:3000/manage-prototype">Manage your prototype</a></p>
+&nbsp;
 
 <h1 class="govuk-heading-l">Vet Gateway</h1>
 
-<h2 class="govuk-heading-m">Official Veterinarian (OV) content</h2>
+<p class="govuk-body-l">Migration of Animal and Plant Health Agency content from Vet Gateway to GOV.UK</p>
 
-<p><a href="guidance/official-veterinarians">Official veterinarians</a></p>
+&nbsp;
+
+<!-- <h2 class="govuk-heading-m">Official Veterinarian (OV) content</h2> -->
+
+{% from "govuk/components/table/macro.njk" import govukTable %}
+
+<table class="govuk-table">
+  <caption class="govuk-table__caption govuk-table__caption--m">Official Veterinarian (OV) content</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Name</th>
+      <th scope="col" class="govuk-table__header">Status</th>
+      <th scope="col" class="govuk-table__header">Date updated</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    <tr class="govuk-table__row">
+      <th scope="row" class="govuk-table__header"><a href="guidance/ov-collection">Official veterinarian collection page</a></th>
+      <td class="govuk-table__cell">In progress</td>
+      <td class="govuk-table__cell">22 Feb 2024</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <th scope="row" class="govuk-table__header"><a href="guidance/official-veterinarians">How to become an official veterinarian</a></th>
+      <td class="govuk-table__cell">In progress</td>
+      <td class="govuk-table__cell">22 Feb 2024</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<!-- <p><a href="guidance/ov-collection">Official veterinarian collection page</a></p>
+<p class="govuk-body-s">Work in progress</p>
+<p class="govuk-body-s">Updated 22 Feb 2024</p>
+
+<p><a href="guidance/official-veterinarians">How to become an official veterinarian</a></p>
+<p class="govuk-body-s">Work in progress</p>
+<p class="govuk-body-s">Updated 22 Feb 2024</p> -->
+
+
 
 {% endblock %}
