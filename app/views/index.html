@@ -10,103 +10,48 @@
 
 <h1 class="govuk-heading-l">Vet Gateway</h1>
 
-<p class="govuk-body-l">Migration of Animal and Plant Health Agency (APHA) content from Vet Gateway to GOV.UK</p>
+<br></br>
 
-&nbsp;
+<a href="guidance/ov-collection"><button type="submit" class="govuk-button" data-module="govuk-button">Official Veterinarian collection page</button></a>
 
-<!-- <h2 class="govuk-heading-m">Official Veterinarian (OV) content</h2> -->
+<br></br>
 
-<table class="govuk-table">
-  <caption class="govuk-table__caption govuk-table__caption--m">Official Veterinarian (OV) content</caption>
-  <thead class="govuk-table__head">
-    <tr class="govuk-table__row">
-      <th scope="col" class="govuk-table__header">Name</th>
-      <th scope="col" class="govuk-table__header">Status</th>
-      <th scope="col" class="govuk-table__header">Date updated</th>
-    </tr>
-  </thead>
-  <tbody class="govuk-table__body">
-    <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header"><a href="guidance/ov-collection">Official veterinarian collection page</a></th>
-      <td class="govuk-table__cell">Ready for review</td>
-      <td class="govuk-table__cell">19 Mar 2024</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header"><a href="guidance/official-veterinarians-2">Become an Official Veterinarian (OV) or set up a new OV practice</a></th>
-      <td class="govuk-table__cell">In progress</td>
-      <td class="govuk-table__cell">19 Mar 2024</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header"><a href="guidance/sam">Sam: register or sign in to submit TB test results</a></th>
-      <td class="govuk-table__cell">Ready for review</td>
-      <td class="govuk-table__cell">19 Mar 2024</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header"><a href="guidance/ov-claims-fees">OV fees and invoicing</a></th>
-      <td class="govuk-table__cell">Not started</td>
-      <td class="govuk-table__cell">19 Mar 2024</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header"><a href="guidance/tb-testing-zoos">Training requirements and exceptions for veterinary surgeons carrying out TB testing</a></th>
-      <td class="govuk-table__cell">Not started</td>
-      <td class="govuk-table__cell">25 Mar 2024</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header"><a href="guidance/ov-practice-forms">Documents required to set up a new OV practice</a></th>
-      <td class="govuk-table__cell">In progress</td>
-      <td class="govuk-table__cell">18 Mar 2024</td>
-    </tr>
-  </tbody>
-</table>
+<a href="guidance/forms-collection"><button type="submit" class="govuk-button" data-module="govuk-button">Forms collection page</button></a>
+
+<br>
 
 <br>
 <br>
 <br>
 
 
-<table class="govuk-table">
-  <caption class="govuk-table__caption govuk-table__caption--m">Forms content</caption>
-  <thead class="govuk-table__head">
-    <tr class="govuk-table__row">
-      <th scope="col" class="govuk-table__header">Name</th>
-      <th scope="col" class="govuk-table__header">Status</th>
-      <th scope="col" class="govuk-table__header">Date updated</th>
-    </tr>
-  </thead>
-  <tbody class="govuk-table__body">
-    <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header"><a href="guidance/export-guide">Test animals for diseases to export from the UK</a></th>
-      <td class="govuk-table__cell">In progress</td>
-      <td class="govuk-table__cell">27 Feb 2024</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header"><a href="guidance/rabies-guide">Pet travel schemes: test for rabies antibodies</a></th>
-      <td class="govuk-table__cell">In progress</td>
-      <td class="govuk-table__cell">22 Mar 2024</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header"><a href="guidance/forms-collection">Forms collection</a></th>
-      <td class="govuk-table__cell">In progress</td>
-      <td class="govuk-table__cell">22 Mar 2024</td>
-    </tr>
-  </tbody>
-      <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header"><a href="guidance/birds-export-guide">Birds: test for viruses for export, import or quarantine</a></th>
-      <td class="govuk-table__cell">In progress</td>
-      <td class="govuk-table__cell">27 Feb 2024</td>
-    </tr>
-  </tbody>
-</table>
-
-
-<!-- <p><a href="guidance/ov-collection">Official veterinarian collection page</a></p>
-<p class="govuk-body-s">Work in progress</p>
-<p class="govuk-body-s">Updated 22 Feb 2024</p>
-
-<p><a href="guidance/official-veterinarians">How to become an official veterinarian</a></p>
-<p class="govuk-body-s">Work in progress</p>
-<p class="govuk-body-s">Updated 22 Feb 2024</p> -->
 
 
 
+
+
+{% endblock %}
+
+
+
+{% block footer %}
+ {{ govukFooter({
+   meta: {
+     items: [
+       {
+         href: "guidance/project-page",
+         text: "Project page"
+       },
+       {
+         href: "/manage-prototype",
+         text: "Manage your prototype"
+       },
+       {
+         href: "/manage-prototype/clear-data",
+         text: "Clear data"
+       }
+     ],
+     visuallyHiddenTitle: "Footer links"
+   }
+ }) }}
 {% endblock %}
