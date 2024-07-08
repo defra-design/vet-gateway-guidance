@@ -1,12 +1,16 @@
 {% extends "layouts/main.html" %}
+
 {% block pageTitle %}
   General OV information
 {% endblock %}
+
 {% block header %}
   <!-- Blank header with no service name for this page -->
   {{ govukHeader() }}
 {% endblock %}
+
 {% block beforeContent %}
+
   {{ govukBreadcrumbs({
     items: [
       {
@@ -22,8 +26,12 @@
       }
     ]
   }) }}
+
 {% endblock %}
+
 {% block content %}
+
+
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
 
@@ -40,7 +48,9 @@
           <p class="govuk-body-s" style="margin-bottom: 10px">Last updated 29 January 2024 — <a href="#">See all updates</a></p>
           </p>
         </div>
+
         &nbsp;
+        
       <aside class="govuk-prototype-kit-common-templates-mainstream-guide-contents-list" role="complementary">
         <nav class="govuk-prototype-kit-common-templates-contents-list" aria-label="Pages in this guide" role="navigation">
           <h2 class="govuk-prototype-kit-common-templates-contents-list__title">Contents</h2>
