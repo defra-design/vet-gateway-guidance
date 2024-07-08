@@ -1,0 +1,205 @@
+{% extends "layouts/main.html" %}
+{% block pageTitle %}
+  General OV information
+{% endblock %}
+{% block header %}
+  <!-- Blank header with no service name for this page -->
+  {{ govukHeader() }}
+{% endblock %}
+{% block beforeContent %}
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "#"
+      },
+      {
+        text: "Section",
+        href: "#"
+      },
+      {
+        text: "Subsection"
+      }
+    ]
+  }) }}
+{% endblock %}
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <span class="govuk-caption-l">Guidance</span>
+
+      <h1 class="govuk-heading-l">Training requirements for veterinary surgeons carrying out zoological TB testing</h1>
+
+      <p class="govuk-body-l"></p>  
+             
+        <div class="app-c-published-dates " lang="en">
+          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+          <p class="govuk-body-s" style="margin-bottom: 10px">From: <a href="#">Animal Plant and Health Agency</a></p>
+          <p class="govuk-body-s" style="margin-bottom: 10px">Published 9 November 2023</p>
+          <p class="govuk-body-s" style="margin-bottom: 10px">Last updated 29 January 2024 — <a href="#">See all updates</a></p>
+          </p>
+        </div>
+        &nbsp;
+      <aside class="govuk-prototype-kit-common-templates-mainstream-guide-contents-list" role="complementary">
+        <nav class="govuk-prototype-kit-common-templates-contents-list" aria-label="Pages in this guide" role="navigation">
+          <h2 class="govuk-prototype-kit-common-templates-contents-list__title">Contents</h2>
+          <ol class="govuk-prototype-kit-common-templates-contents-list__list">
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed govuk-prototype-kit-common-templates-contents-list__list-item--active"><a href="#how-become-ov">-</a></li>
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#"></a></li>
+          </ol>
+        </nav>
+      </aside>
+    </div>
+  </div>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds govuk-prototype-kit-common-templates-mainstream-guide-body">
+      
+      
+      <p>Most veterinary surgeons carrying out TB testing will need to be authorised as OVs under the OCQ(V) - TT qualification. This training is delivered on behalf of APHA by <a href="https://www.improve-ov.com/qualifications/tt-course.php">Improve International</a>.</p>
+      <p>Before you undertake the training, you should check if it's required for the work you want to carry out. Contact APHA's Official Veterinarian (OV) team for more information.</p>
+
+      <h3 class="govuk-heading-s">Training exception for non-statutory TB testing in zoological collections</h3>
+
+      <p>You do not need to complete the OCQ(V) - TT if you are carrying out non-statutory TB testing in zoological collections. This type of testing can be performed by any registered veterinarian in accordance with professional guidance from the Royal College of Veterinary Science (RCVS).</p>
+
+      <p>Veterinary surgeons carrying out non-statutory TB testing without the OCQ(V) - TT qualification must act within their professional competence.</p>
+
+      <p>If you are carrying out skin testing for bTB on deer in a zoo you must send a completed <a href="#">TN184 form (Request to Test - TB testing of non-bovine species)</a> to APHA prior to testing.</p>
+
+      <!-- <p><a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/http://apha.defra.gov.uk/documents/ov/Briefing-Note-4322.pdf">More information about training requirements</a></p> -->
+
+
+
+      <h2 class="govuk-heading-m">Getting permission to carry out TB testing</h2>
+  
+      <p>For animals that are covered by the TB Order(s), you must get prior permission for any statutory or non-statutory TB testing.</p>
+      <p>For animals that are not covered by the TB Order(s), you must get prior permission for statutory testing only.</p>
+      <details class="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text">Animals covered by the TB Order(s)</span>
+        </summary>
+        <div class="govuk-details__text">
+          <p>Animals covered by the TB Order(s) are:</p>
+          <ul class="govuk-list govuk-list--bullet">
+            <li>in England: bovine animals, deer, camelids, domestic pigs, sheep or goats</li> 
+            <li>in Wales: bovine animals, deer, camelids or goats</li>
+            <li>in Scotland: bovine animals, deer, goats, pigs, sheep, alpacas, guanacos, llamas or vicuñas</li>
+            </ul>
+          <p>The Orders are: The Tuberculosis in Animals (England) Order 2021, The Tuberculosis (Scotland) Order 2007 (as amended), Tuberculosis in Specified Animals (Scotland) Order 2015, The Tuberculosis (Wales) Order 2010 (as amended) and The Tuberculosis (Wales) Order 2011 (as amended).</p>
+        </div>
+      </details>
+      <p>Testing instructions for statutory tests are issued by APHA to the OV. These are also the written notification of permission to test.</p>
+
+      <p><a href="http://apha.defra.gov.uk/External_OV_Instructions/TB_Instructions/Active_Surveillance/Pre_and_Post_Movement.html">Find out how to get permission for TB testing</a>.</p>
+
+
+
+
+      <h2 class="govuk-heading-m">Statutory TB testing requirements</h2>
+
+      <p>Statutory TB testing is generally instructed and paid for by APHA. Non-statutory testing is voluntary and must be funded by the animal keeper.</p>
+
+      <h3 class="govuk-heading-s">Statutory testing of bovine zoological mammals</h3>
+
+      <p>Bovine animals in zoos can be exempted from the requirement for statutory routine surveillance testing, provided they:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>are not slaughtered for human consumption</li>
+        <li>are not traded</li>
+        <li>do not come into contact with the general public (for example, on an 'open farm')</li>
+      </ul>
+
+      <p>If bovine animals are being moved, they will be subject to mandatory pre or post-movement TB testing, which is statutory but must be arranged and funded by the animal keeper.</p>
+
+      <details class="govuk-details">
+        <summary class="govuk-details__summary">
+          <span class="govuk-details__summary-text">Definition of 'bovine animal'</span>
+        </summary>
+        <div class="govuk-details__text">
+          <p>'Bovine animal' is defined:</p>
+          <ul class="govuk-list govuk-list--bullet">
+            <li>in England, as “domestic cattle of the genus Bos, as well as captive bovines of the genera Bubalus and Bison”</li> 
+            <li>in Wales, as “domestic cattle of the genus Bos, buffalo or bison”</li>
+            <li>in Scotland, as “domestic cattle of the genus Bos, Bubalus bubalis or Bison bison”</li>
+            </ul>
+        </div>
+      </details>
+
+      <h3 class="govuk-heading-s">Statutory testing of non-bovine zoological mammals</h3>
+
+      <p>APHA assess the need for statutory, targeted surveillance TB testing in non-bovine zoological mammals on a case-by-case basis.</p>
+
+
+
+      <h2 class="govuk-heading-m">Statutory and non-statutory examples</h2>
+
+      <h3 class="govuk-heading-s">Statutory TB testing</h3>
+
+      <p>Routine active surveillance, enhanced surveillance and movement testing of any domestic bovine animals kept on a premises where they have contact with the public. For example, cattle on ‘open farms’.</p>
+
+      <p>Targeted, ad hoc surveillance of any non-bovine farmed species that may be kept in zoos, such as camelids, deer, goats, sheep and pigs, where required by APHA following suspicion or confirmation of M. bovis infection, or disclosure of an epidemiological link with an infected (TB breakdown) herd.</p>    
+
+      <h3 class="govuk-heading-s">Non-statutory TB testing</h3>
+
+      <p>Private TB surveillance in bovine and non-bovine animals (domestic or wild), as part of a voluntary zoo health management programme, including where this forms part of a zoo’s Balai  or Confined Establishment approval.</p>
+
+      <p>Pre-export testing where this is required by an importing country for a live non-bovine animal export.</p>
+
+      <p>Private testing of wild mammals voluntarily undertaken by a zoo to support the revocation of TB movement restrictions and, if appropriate, regain Balai  or Confined Establishment approval status.</p>
+
+
+
+      
+      <!-- <p>To do this, veterinary surgeons must:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>act within their professional competence</li>
+        <li>get permission from APHA for all TB tests in animals covered by the relevant TB order(s), whether the test is statutory or not</li>
+      </ul> -->
+      <nav class="govuk-prototype-kit-common-templates-pagination" role="navigation" aria-label="Pagination">
+      <!-- {{ govukPagination({
+        previous: {
+          labelText: "Page 1 title",
+          href: "#"
+        },
+        next: {
+          labelText: "Page 3 title",
+          href: "#"
+        }
+      }) }} -->
+      <!-- <p>
+        <a href="#">
+          View a printable version of the whole guide
+        </a>
+      </p> -->
+    </div>
+    <div class="govuk-grid-column-one-third">
+      <!-- <aside class="govuk-prototype-kit-common-templates-related-items" role="complementary">
+        <h2 class="govuk-heading-m" id="subsection-title">
+          Subsection
+        </h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="govuk-list govuk-!-font-size-16">
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#" class="govuk-!-font-weight-bold">
+                More <span class="govuk-visually-hidden">in Subsection</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside> -->
+    </div>
+  </main>
+</div>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,343 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  General OV information
+{% endblock %}
+
+{% block header %}
+  <!-- Blank header with no service name for this page -->
+  {{ govukHeader() }}
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "#"
+      },
+      {
+        text: "Section",
+        href: "#"
+      },
+      {
+        text: "Subsection"
+      }
+    ]
+  }) }}
+
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <span class="govuk-caption-l">Guidance</span>
+
+      <h1 class="govuk-heading-l">Become an Official Veterinarian (OV) or set up a new OV practice</h1>
+
+      <p class="govuk-body-l">How to get authorised as an OV, maintain your records and set up a new practice, and what to do if you will be TB testing.</p>
+
+             
+        <div class="app-c-published-dates " lang="en">
+          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+          <p class="govuk-body-s" style="margin-bottom: 10px">From: <a href="#">Animal Plant and Health Agency</a></p>
+          <p class="govuk-body-s" style="margin-bottom: 10px">Published 9 November 2023</p>
+          <p class="govuk-body-s" style="margin-bottom: 10px">Last updated 29 January 2024 — <a href="#">See all updates</a></p>
+          </p>
+        </div>
+
+        &nbsp;
+
+      <aside class="govuk-prototype-kit-common-templates-mainstream-guide-contents-list" role="complementary">
+        <nav class="govuk-prototype-kit-common-templates-contents-list" aria-label="Pages in this guide" role="navigation">
+          <h2 class="govuk-prototype-kit-common-templates-contents-list__title">Contents</h2>
+          <ol class="govuk-prototype-kit-common-templates-contents-list__list">
+            
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed govuk-prototype-kit-common-templates-contents-list__list-item--active"><a href="#how-become-ov">How to become an OV</a></li>          
+               
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#tb-testing">What to do if you will be TB testing</a></li>
+
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#maintaining-qualifications-authorisation">Maintaining your qualifications and authorisation</a></li>
+
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#ov-records">Maintaining your OV records</a></li> 
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#new-practice">Setting up a new practice</a></li>  
+          </ol>
+        </nav>
+      </aside>
+
+    </div>
+
+  </div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds govuk-prototype-kit-common-templates-mainstream-guide-body">
+      
+      <h2 class="govuk-heading-m"></h2>
+      <p>Official Veterinarians (OVs) are veterinarians in private business who are authorised by the <a href="https://www.gov.uk/government/organisations/animal-and-plant-health-agency">Animal and Plant Health Agency (APHA)</a> to deliver veterinary services such as TB testing, brucella and anthrax surveillance testing, export health certification and notifiable disease outbreak work.</p>
+      <div class="govuk-inset-text">
+        <p>All OVs are authorised under the <a href="">Policy for Authorisation of Official Veterinarians in GB</a>. You must be familiar with this document before becoming an OV and while you are authorised.</p>
+      </div>
+
+
+      <h2 class="govuk-heading-m" id="how-become-ov">How to become an OV</h2>
+      <p>To become an OV you must <a href="https://improve-ov.com/registration/" class="govuk-link">register with Improve International</a> and complete the relevant OCQ(V) training. Before you do any training you should check which qualification(s) are needed for the work you'll be doing.</p>
+      <p><a href="https://www.improve-ov.com/qualifications/about.php">Learn more about OCQ(V)s at Improve International</a>.</p>
+      <p>APHA will grant your OV authorisation when you've completed the training and have met all qualification requirements. If you're a new OV, APHA will then send your official OV stamp and unique OV number to you by post. You'll need to use your stamp on official documents to certify them.</p>
+
+      <p>Authorisation can take up to 10 working days. You'll be notified by email when it's granted. You must wait until your authorisation is confirmed before starting any OV work.</p>
+
+      <h3 class="govuk-heading-s">OV training costs</h3>
+      <p>You or your employer will be responsible for training costs.</p>
+      <p>Prospective and current OVs working in Scotland may be eligible to claim a Scottish Government funded code for OCQ(V) - SS and OCQ(V) - TT training.</p>
+
+      
+      
+
+      <h2 class="govuk-heading-m" id="tb-testing">What to do if you'll be TB testing</h2>
+      <p>If you'll be carrying out TB testing you must be authorised under the OCQ(V) - TT qualification. You may not need to do this for non-statutory TB testing in zoological conditions.</p>
+      <p><a href="">Training requirement for vets carrying out zoological TB testing</a></p>
+      <p>After you have completed the theory training you must nominate a supervisor and enrol in Sam, APHA's online system for recording TB test results.</p>
+      <p><a href="">Enrol or sign in to Sam</a></p>
+      <p>After you enrol in Sam you'll be given conditional authorisation so you can complete a period of practical training and assessment. When this is completed, APHA will grant full authorisation.</p>
+      
+
+
+
+
+
+      <h2 class="govuk-heading-m" id="#maintaining-qualifications-authorisation">Maintaining your qualifications and authorisation</h2>
+      <p>Your authorisation will be suspended if you do not maintain your qualification(s). Most qualifications must be revalidated every 4 years. Improve International will send you reminders of your revalidation deadline(s) by email. If you do not revalidate by the deadline your authorisation will be suspended and you'll have 6 months to revalidate it before it expires.</p>
+      <p>If your authorisation expires you'll need to complete your OV training again.</p>
+
+      <h3 class="govuk-heading-s">Extensions and exceptions</h3>
+      <p>You can apply for an extension or exception if you cannot complete:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>the OCQ(V) revalidation within the specified deadline, or</li>
+        <li>the OCQ(V) - TT training requirements within the the period of conditional authorisation</li> 
+      </ul>
+      <p>Extensions and exceptions can only be given in certain situations. Details can be found in the application form.</p>
+      <p><a href="">Apply for an extension or exemption to the training and revalidation requirments</a>.</p>
+      <p>If your OCQ(V) - TT authorisation has expired within the past 4 years and you want to be reauthorised, you can apply to waive the requirement to repeat the practical training and assessment for reauthorisation. Evidence of any TB audit carried out in the past 4 years must be provided with your application.</p>
+
+
+
+
+
+      <h2 class="govuk-heading-m" id="ov-records" style="margin-top: 30px">Maintaining your OV records</h2>
+      <p>You are responsible for making sure all your details recorded on Improve International are correct.</p>
+
+      <h3 class="govuk-heading-s">If you are registered on Sam and need to change your name or transfer to another practice</h3>
+      <p>To change your details on Sam you must first update your Improve International account information. You must then complete:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>the <a href="">OV57 form for a name change</a>, or</li>
+        <li>the <a href="">OV58 form for a practice transfer</a></li>
+      </ul>
+      <p>Your information will be processed and updated on Sam within 10 working days.</p>
+
+      <h3 class="govuk-heading-s" id="lost-damaged-stolen-stamp">If you need a replacement stamp</h3>
+      <p>If your OV stamp has been lost, damaged or stolen you must <a href="">complete the OV45 form</a> and send it to APHA's OV team. The OV team will send you a replacement stamp within 10 working days of receiving the form.</p>
+      <p>You'll need a lost property number for a stamp that's been lost.</p>
+      <p>If your stamp has been stolen you must report the theft to the police. If you are given a crime reference number you must include it on the OV45 form.</p>
+
+
+
+
+
+      <h2 class="govuk-heading-m" id="stop-being-ov">How to stop being an OV</h2>
+      <p>If your OV status is no longer required you can either:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a href="">deregister as an OV</a>, or</li>
+        <li>allow your OV authorisation to expire by choosing not to revalidate your qualification(s)</li>
+      </ul>
+      <!-- <p>APHA or Improve International will continue to send you OV communications until your authorisation ends.</p> -->
+      <h3 class="govuk-heading-s">How to destroy your official OV stamp</h3>
+      <p>When your authorisation ends you must destroy your official OV stamp. You can do this yourself or post it to APHA's OV team to do it for you. If you want to destroy your stamp yourself, you must:</p>
+          <ol class="govuk-list govuk-list--number">
+            <li>Peel off the rubber containing the unique number.</li>
+            <li>Cut the rubber off and dispose of the rubber and number separately.</li>
+            <li>Take a picture of the destroyed stamp and email it to CSCOneHealthOVTeam@apha.gov.uk.</li>
+          </ol>     
+      <!-- <p>To reactivate your OV status you must email CSCOneHealthOVTeam@apha.gov.uk while your authorisation is still active.</p> -->
+
+
+
+
+
+      <h2 class="govuk-heading-m">Setting up a new practice</h2>
+      <p>New practices must <a href="ov-practice-forms">download and complete the new OV practice forms</a>, then return them to APHA by post.      
+      <p>After the forms are returned, your local APHA office may decide to inspect your practice. When they have confirmed that your practice can be set up, APHA's OV team will complete the process and notify you. The OV team will ensure that all OV records are created and updated, and that relevant documentation is sent out.</p>
+
+
+
+
+
+      
+
+
+      <!-- GREY BOX CONTACT DETAILS FOR APHA OV TEAM -->
+
+
+      <!-- <h3 class="govuk-heading-s">What to do if your practice will be TB testing</h3> -->
+
+      <!-- This needs checking re registration for individuals and practices -->
+
+      <!-- This section is all from VG and needs rewriting -->
+
+      <!-- <p>Sam is APHA's system for recording the reigstration of livestock species, work management and bovine tuberculosis (bTB). All new OVs and Approved Tuberculin Testers (ATTs) must register on Sam to submit TB test results.</p>
+
+      <p>The practice that you test for must be registered on Sam in order for you to be able to submit your TB tests results.</p>
+
+      <p>If you are becoming an ATT, when you complete your ATT theory training you will be prompted to register on Sam. Your authorisation as an ATT will not be granted until this is complete.</p>
+
+      <p>To register for access to submit TB test results electronically please follow the steps below:</p>
+
+      <ol class="govuk-list govuk-list--number">
+        <li>Sign up your practice and practice staff by contacting the OV team - 03000 200 301 / CSCOneHealthOVTeam@apha.gov.uk</li>
+        <li>Follow the instructions on the letter you will be sent (see the Registration and Enrolment User Guide for more information)</li>
+        <li>Register and enrol as an organisation for the AHVLA-ORC service</li>
+        <li>Register and enrol as an agent for the AHVLA-AGT service</li>
+        <li>Once registered, the Primary Contact should select the Manage services on the Government Gateway link to manage other's access to Sam.</li>
+      </ol> -->
+
+      <!-- Return the OV59 form to the OV team (APHA) who will process the information you have submitted within 10 working days. A known-facts letter will be sent out with log-on details to the practice address. -->
+
+
+
+
+
+
+<!-- <div class="govuk-cookie-banner" data-nosnippet role="region" aria-label="">
+        <div class="govuk-cookie-banner__message govuk-width-container">
+          <div class="govuk-grid-row">
+            <div class="govuk-grid-column-full-width">
+              <h2 class="govuk-cookie-banner__heading govuk-heading-m"></h2>
+              <div class="govuk-cookie-banner__content">
+                <p class="govuk-body" style="margin-left: 7%; margin-top: -2%; margin-bottom: 0%px; margin-right: 15px">If your qualification expires you will need to complete your OV training again.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+
+
+
+
+      <!-- <h2 class="govuk-heading-m" id="maintaining-records">Maintaining your OV records</h2>
+
+      <p><i>How your OV records are stored and maintained</i></p>
+
+      <p><i>What you need to do if you want to change your name during your appointment</i></p>
+
+      <p><i>How long the name change process takes</i></p>
+
+      <p><i>Where to find updated certificates after a name change</i></p>
+
+      <h3 class="govuk-heading-s">What to do if you need a new stamp</h3>
+
+      <p><i>What to do if your stamp has been lost or damaged</i></p>
+
+      <p><i>What to do if your stamp has been stolen</i></p>
+
+      <p><i>How long it will take to get a stamp</i></p> -->
+
+
+
+     
+
+
+
+
+
+
+
+      <!-- <h2 class="govuk-heading-m" id="contact">Contact information</h2>
+
+      <p><i>Contact information for APHA's OV team</i></p>
+
+      <p><i>Contact information for Improve International</i></p> -->
+
+
+
+
+      
+
+
+
+      <!-- <p>To become an OV you must:</p>
+      <ol class="govuk-list govuk-list--number">
+        <li><a href="https://improve-ov.com/registration/">register with Improve International</a></li>
+        <li>enrol for the relevant Official Controls Qualification (Veterinary) training</li>
+        <li>complete the training</li>
+      </ol> -->
+
+      <!-- <p>OCQ(V)s are administered by Improve International on behalf of APHA. You should contact Improve International if you have any questions about training or retraining.</p> -->
+
+      <p></p>
+
+      <nav class="govuk-prototype-kit-common-templates-pagination" role="navigation" aria-label="Pagination">
+
+      <!-- {{ govukPagination({
+        previous: {
+          labelText: "Page 1 title",
+          href: "#"
+        },
+        next: {
+          labelText: "Page 3 title",
+          href: "#"
+        }
+      }) }} -->
+
+      <!-- <p>
+        <a href="#">
+          View a printable version of the whole guide
+        </a>
+      </p> -->
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+
+      <!-- <aside class="govuk-prototype-kit-common-templates-related-items" role="complementary">
+        <h2 class="govuk-heading-m" id="subsection-title">
+          Subsection
+        </h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="govuk-list govuk-!-font-size-16">
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#" class="govuk-!-font-weight-bold">
+                More <span class="govuk-visually-hidden">in Subsection</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside> -->
+
+    </div>
+
+  </main>
+</div>
+
+
+
+
+
+    </div>
+  </div>
+
+{% endblock %}
