@@ -1,0 +1,88 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  Find a post-mortem examination centre
+{% endblock %}
+
+{% block header %}
+  <!-- Blank header with no service name for the start page -->
+  {{ govukHeader() }}
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "#"
+      },
+      {
+        text: "Section",
+        href: "#"
+      },
+      {
+        text: "Subsection"
+      }
+    ]
+  }) }}
+
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">Find a post-mortem examination centre</h1>
+
+      <p>Use this service to find your allocated post-mortem examination (PME) centre.</p>
+
+      <p></p>
+
+      {{ govukButton({
+        text: "Start now",
+        href: "search",
+        isStartButton: true
+      }) }}
+
+      <h2 class="govuk-heading-m"></h2>
+
+      <p>Contact details for the APHA Veterinary Investigation Centres and non-APHA PME providers are available on the <a href="http://apha.defra.gov.uk/vet-gateway/surveillance/diagnostic/national-network.htm">national surveillance network page</a>.</p>
+
+      <p>You can also <a href="">see a map of the scanning surveillance network and providers in England and Wales</a>.</p>
+
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+
+      <!-- <aside class="govuk-prototype-kit-common-templates-related-items" role="complementary">
+        <h2 class="govuk-heading-m" id="subsection-title">
+          Subsection
+        </h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="govuk-list govuk-!-font-size-16">
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#" class="govuk-!-font-weight-bold">
+                More <span class="govuk-visually-hidden">in Subsection</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside> -->
+
+    </div>
+  </div>
+
+{% endblock %}
