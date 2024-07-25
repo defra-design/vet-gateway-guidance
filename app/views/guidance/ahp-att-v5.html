@@ -1,0 +1,187 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  Become an ATT
+{% endblock %}
+
+{% block header %}
+  <!-- Blank header with no service name for this page -->
+  {{ govukHeader() }}
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "#"
+      },
+      {
+        text: "Section",
+        href: "#"
+      },
+      {
+        text: "Subsection"
+      }
+    ]
+  }) }}
+
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <span class="govuk-caption-l">Guidance</span>
+
+      <h1 class="govuk-heading-l">Become an Approved Tuberculin Tester (ATT)</h1>
+
+      <p class="govuk-body-l">How to get and maintain an Approved Tuberculin Tester (ATT) qualification, and what to do if you want to end your authorisation.</p>
+
+        
+
+      <aside class="govuk-prototype-kit-common-templates-mainstream-guide-contents-list" role="complementary">
+        <nav class="govuk-prototype-kit-common-templates-contents-list" aria-label="Pages in this guide" role="navigation">
+          <h2 class="govuk-prototype-kit-common-templates-contents-list__title">Contents</h2>
+          <ol class="govuk-prototype-kit-common-templates-contents-list__list">
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#">Training and requirements</a></li>
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#">Maintaining your qualification and authorisation</a></li>
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#">Maintaining your ATT records</a></li>
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#">How to stop being an ATT</a></li>
+
+          </ol>
+        </nav>
+      </aside>
+    </div>
+  </div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds govuk-prototype-kit-common-templates-mainstream-guide-body">
+
+      <p>ATTs are non-veterinary personnel who are authorised by the Animal and Plant Health Agency (APHA) to carry out statutory TB skin testing of cattle in England and Wales only. They are also known as Animal Health Paraprofessionals (AHPs).</p>
+
+      <div class="govuk-inset-text">
+        <p>All ATTs are authorised under the <a href="">Policy for Authorisation of Approved Tuberculin Testers (TR541)</a>. You must be familiar with this document before becoming an ATT and while you are authorised.</p>
+      </div>
+
+      <p>To get authorised as an ATT, you must:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>be regarded by the Agency as suitable for carrying out tasks on behalf of Ministers, taking into account any previous performance as an official</li>
+        <li>hold the Official Controls Qualification (OCQ)(AHP) - ATT
+        <li>work as part of a veterinary business and have a named Approved Veterinary Supervisor (AVS) and one or 2 deputy supervisors (AVSd)</li>
+      </ul>
+
+
+      <h2 class="govuk-heading-m">Training and requirements</h2>
+
+      <h3 class="govuk-heading-s">Eligibility</h3>
+      <p>To enrol in the ATT training you must:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>be at least 18 years old when you apply</li>
+        <li>have passed identification and basic Disclosure and Barring Service (DBS) checks</li>
+        <li>have at least 6 months livestock handling experience</li>
+        <li>have at least 3 GCSEs or equivalent qualifications in maths, English, and a science subject or food production, or 3 years experience in a government regulatory role</li>
+        <li>have your employer declare that you're eligible to do the training</li>
+      </ul>
+
+      
+
+      <h3 class="govuk-heading-s">Register with Improve International</h3>
+      <p>To become an ATT you must complete  the Official Controls Qualification (OCQ)(AHP) - ATT qualification.</p>
+      <p><a href="https://www.improve-ahp.com/registration/">Register with Improve International to access the ATT training</a></p>
+
+      <h3 class="govuk-heading-s">Complete the ATT course and exam</h3>
+      <p>The first part of your training will consist of an online course and exam.</p>
+      <p>After you have passed the exam, APHA will grant you conditional authorisation to complete the practical training and assessment.</p>
+
+      <h3 class="govuk-heading-s">Get conditional authorisation and complete the practical training</h3>
+      <p>These steps must be completed before APHA will grant you conditional authorisation to start your practical training.</p>
+      <ol class="govuk-list govuk-list--number">
+        <li>You must nominate an Approved Veterinary Supervisor (AVS).</li>
+        <li>Your supervisor must the AVS role and appoint at least one deputy.</li>
+        <li>You must <a href="sam-register-enrol-v4#how-register-sam">enrol in Sam</a>, APHA's online system for recording TB test results.</li>
+      </ol>
+      <p>When you have completed these steps, APHA will grant you conditional authorisation so you can complete the ATT practical training and assessment. You must not start any TB testing until you have received confirmation of your conditional authorisation by email.</p>
+
+      <h3 class="govuk-heading-s">Get full authorisation to become an ATT</h3>
+      <p>When you have completed your qualification and practical training, APHA's OV team will grant your full ATT authorisation.</p>
+      
+      <p>Authorisation can take up to 10 working days. You'll be notified by email if you're successful.</p>
+
+      
+
+      <h2 class="govuk-heading-m">Maintaining your qualification and authorisation</h2>
+      <p>Your OCQ(AHP) - ATT qualification must be revalidated 2 years after the initial authorisation and then every 4 years. Improve International will send you reminders of your revalidation deadline by email.</p>
+
+      <p>Your testing will also be audited by your AVS 4 to 6 months after passing the practical assessment.</p>
+
+      <h3 class="govuk-heading-s">What happens if you do not maintain your qualification</h3>
+      <p>If you do not revalidate your qualification by the deadline, your authorisation will be suspended and you’ll have 6 months to revalidate it before it expires.</p>
+      <p>If your authorisation expires you’ll need to complete your training again before you can be reauthorised.</p>
+
+      <h3 class="govuk-heading-s">Extensions and exceptions</h3>
+      <p>You can apply for an extension or exception if you cannot complete:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>the OCQ(AHP) - ATT training requirements within the period of conditional authorisation</li>
+        <li>your revalidation within the deadline</li>        
+      </ul>
+      <p>Extensions and exceptions can only be considered in certain situations. Details can be found in the application form below.</p>
+
+      <p><a href="">Request extension or exception to OCQ training requirement (TR588)</a>.</p>
+
+
+
+      <h2 class="govuk-heading-m">Maintaining your ATT records</h2>
+      <p>You are responsible for making sure all your details recorded on Improve International are correct.</p>
+
+      <h3 class="govuk-heading-s">If you're registered on Sam and need to change your name or transfer to another practice</h3>
+      <p>To change your details on Sam you must first update your Improve International account information, and then complete:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>the <a href="https://www.gov.uk/government/publications/ov57-change-your-name-on-sam">OV57 form for a name change</a>, or</li>
+        <li>the <a href="https://www.gov.uk/government/publications/ov58-change-veterinary-practice-details-on-sam">OV58 form for a practice transfer</a></li>
+      </ul>
+      <p>Your Sam details will be updated within 10 working days.</p>
+
+
+
+      <h2 class="govuk-heading-m" id="stop-being-ov">How to stop being an ATT</h2>
+      <p>You can either:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a href="">deregister as an ATT (form OV56)</a>, or</li>
+        <li>allow your authorisation to expire by choosing not to revalidate your qualification(s)</li>
+      </ul>
+      <p>Deregistering as an ATT will stop all official ATT communications. If you do not deregister, official communications related to your qualifications will stop soon after your qualifications expire but you will continue to receive some ATT briefing notes.</p>
+
+
+
+
+
+
+      
+
+      
+
+      <p></p>
+
+      <nav class="govuk-prototype-kit-common-templates-pagination" role="navigation" aria-label="Pagination">
+      </div>
+      <div class="govuk-grid-column-one-third">
+      </div>
+
+  </main>
+</div>
+
+
+
+
+
+    </div>
+  </div>
+
+{% endblock %}
