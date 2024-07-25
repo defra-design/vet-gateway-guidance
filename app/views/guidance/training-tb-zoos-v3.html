@@ -1,0 +1,188 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  General OV information
+{% endblock %}
+
+{% block header %}
+  <!-- Blank header with no service name for this page -->
+  {{ govukHeader() }}
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "#"
+      },
+      {
+        text: "Section",
+        href: "#"
+      },
+      {
+        text: "Subsection"
+      }
+    ]
+  }) }}
+
+{% endblock %}
+
+{% block content %}
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <span class="govuk-caption-l">Guidance</span>
+
+      <h1 class="govuk-heading-l">Training and requirements for carrying out zoological TB testing</h1>
+
+      <p class="govuk-body-l">The qualifications and permissions vets need to carry out tuberculosis (TB) testing in zoos, and when testing is required.</p>  
+             
+        <div class="app-c-published-dates " lang="en">
+          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+          <p class="govuk-body-s" style="margin-bottom: 10px">From: <a href="#">Animal Plant and Health Agency</a></p>
+          <p class="govuk-body-s" style="margin-bottom: 10px">Published 9 November 2023</p>
+          <p class="govuk-body-s" style="margin-bottom: 10px">Last updated 29 January 2024 — <a href="#">See all updates</a></p>
+          </p>
+        </div>
+
+        &nbsp;
+        
+      <aside class="govuk-prototype-kit-common-templates-mainstream-guide-contents-list" role="complementary">
+        <nav class="govuk-prototype-kit-common-templates-contents-list" aria-label="Pages in this guide" role="navigation">
+          <h2 class="govuk-prototype-kit-common-templates-contents-list__title">Contents</h2>
+          <ol class="govuk-prototype-kit-common-templates-contents-list__list">
+            
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed govuk-prototype-kit-common-templates-contents-list__list-item--active"><a href="#">When TB testing is required in zoos</a></li>
+            
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#">Statutory testing training and permissions</a></li>
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#">Non-statutory testing training and permissions</a></li>
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#">Zoological TB testing examples</a></li>
+
+          </ol>
+        </nav>
+      </aside>
+    </div>
+  </div>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds govuk-prototype-kit-common-templates-mainstream-guide-body">
+
+
+
+
+      <p>There are 2 types of tuberculosis (TB) testing that can be carried out in zoos:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>statutory, which is generally instructed and paid for by the Animal and Plant Health Agency (APHA)</li>
+        <li>non statutory, which is voluntary and must be paid for by the animal keeper</li>
+      </ul>
+      
+
+
+      <h2 class="govuk-heading-m">When TB testing is required in zoos</h2>    
+
+
+      <h3 class="govuk-heading-s">Surveillance testing of non-bovine zoological mammals</h3>
+      <p>APHA assess the need for statutory, targeted surveillance TB testing in non-bovine zoological mammals on a case-by-case basis.</p>
+
+
+      <h3 class="govuk-heading-s">Surveillance testing bovine zoological mammals</h3>
+      <p>Bovine animals in zoos may be exempt from the requirement for statutory routine surveillance testing, if they:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>are not slaughtered for human consumption</li>
+        <li>are not traded</li>
+        <li>do not come into contact with the general public (for example, on an 'open farm')</li>
+      </ul>
+      <p>You must carry out mandatory pre or post-movement testing when bovine animals are being moved. This testing must be arranged and funded by the animal keeper.</p>
+
+      <p>Bovine animals are defined as:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>in England, as “domestic cattle of the genus Bos, as well as captive bovines of the genera Bubalus and Bison”</li>
+        <li>in Wales, as “domestic cattle of the genus Bos, buffalo or bison”</li>
+        <li>in Scotland, as “domestic cattle of the genus Bos, Bubalus bubalis or Bison bison”</li>
+      </ul>
+
+
+
+
+
+      <h2 class="govuk-heading-m">Statutory testing training and permssions</h2>
+
+      <h3 class="govuk-heading-s">Qualifications and training</h3>
+      <p>To carry out statutory TB testing in zoos you must be authorised under the Official Controls Qualification (OCQ)(V) - TT.</p>
+      <p><a href="https://www.improve-ov.com/qualifications/about.php">Learn more about OCQ(V)s at Improve International</a></p>
+      <p>Before you do any training you should check that it's required for the work you want to do.</p>
+
+      <h3 class="govuk-heading-s">Permissions</h3>
+      <p>Prior permission is needed for all statutory TB testing of zoological animals.</p>
+      <p>If you are carrying out skin testing for bovine tuberculosis (bTB) on deer in a zoo you must send a completed <a href="#">TN184 form (Request to Test - TB testing of non-bovine species)</a> to APHA prior to testing.</p>
+      <p>Testing instructions for statutory tests are issued by APHA to the OV. These are also the written notification of permission to test.</p>
+      <p><a href="http://apha.defra.gov.uk/External_OV_Instructions/TB_Instructions/Active_Surveillance/Pre_and_Post_Movement.html">Find out how to get permission for TB testing</a>.</p>
+
+
+
+
+      <h2 class="govuk-heading-m">Non-statutory testing training and permissions</h2>
+
+      <h3 class="govuk-heading-s">Qualifications and training</h3>
+      <p>You do not need an OCQ(V) qualification to carry out non-statutory TB testing in zoological conditions.</p>
+      <p>You must:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>be a registered veterinarian</li>
+        <li>work in accordance with professional guidance from the Royal College of Veterinary Science (RCVS)</li>
+        <li>act within your professional competence</li>
+      </ul>
+
+      <h3 class="govuk-heading-s">Permissions</h3>
+      <p>For non-statutory TB testing, you only need permission for animals that are covered by the TB Order(s). These animals are:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>in England: bovine animals, deer, camelids, domestic pigs, sheep or goats</li>
+        <li>in Wales: bovine animals, deer, camelids or goats</li>
+        <li>in Scotland: bovine animals, deer, goats, pigs, sheep, alpacas, guanacos, llamas or vicuñas</li>
+      </ul>
+      <p>The Orders are: The Tuberculosis in Animals (England) Order 2021, The Tuberculosis (Scotland) Order 2007 (as amended), The Tuberculosis in Specified Animals (Scotland) Order 2015, The Tuberculosis (Wales) Order 2010 (as amended) and The Tuberculosis (Wales) Order 2011 (as amended).</p>
+
+
+
+
+      
+
+
+
+      <h2 class="govuk-heading-m">Zoological TB testing examples</h2>
+
+      <h3 class="govuk-heading-s">Statutory TB testing</h3>
+
+      <p>Routine active surveillance, enhanced surveillance and movement testing of any domestic bovine animals kept on a premises where they have contact with the public. For example, cattle on ‘open farms’.</p>
+
+      <p>Targeted, ad hoc surveillance of any non-bovine farmed species that may be kept in zoos, such as camelids, deer, goats, sheep and pigs, where required by APHA following suspicion or confirmation of M. bovis infection, or disclosure of an epidemiological link with an infected (TB breakdown) herd.</p>    
+
+      <h3 class="govuk-heading-s">Non-statutory TB testing</h3>
+
+      <p>Private TB surveillance in bovine and non-bovine animals (domestic or wild), as part of a voluntary zoo health management programme, including where this forms part of a zoo’s Balai  or Confined Establishment approval.</p>
+
+      <p>Pre-export testing where this is required by an importing country for a live non-bovine animal export.</p>
+
+      <p>Private testing of wild mammals voluntarily undertaken by a zoo to support the revocation of TB movement restrictions and, if appropriate, regain Balai  or Confined Establishment approval status.</p>
+
+
+
+
+
+
+
+
+
+      <nav class="govuk-prototype-kit-common-templates-pagination" role="navigation" aria-label="Pagination">
+    </div>
+    <div class="govuk-grid-column-one-third">
+    </div>
+  </main>
+</div>
+    </div>
+  </div>
+{% endblock %}
