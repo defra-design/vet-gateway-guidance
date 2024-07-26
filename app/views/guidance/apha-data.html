@@ -1,0 +1,394 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+ View APHA surveillance reports, publications and data
+{% endblock %}
+
+{% block header %}
+  <!-- Blank header with no service name for this page -->
+  {{ govukHeader() }}
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "#"
+      },
+      {
+        text: "Section",
+        href: "#"
+      },
+      {
+        text: "Subsection"
+      }
+    ]
+  }) }}
+
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <span class="govuk-caption-l">Guidance</span>
+
+      <h1 class="govuk-heading-l">View APHA surveillance reports, publications and data</h1>
+
+      <p class="govuk-body-l">Access reports, videos, publications and data published by the Animal and Plant Health Agency (APHA) for farm animals and wildlife in England and Wales.</p>
+
+      <aside class="govuk-prototype-kit-common-templates-mainstream-guide-contents-list" role="complementary">
+        <nav class="govuk-prototype-kit-common-templates-contents-list" aria-label="Pages in this guide" role="navigation">
+          <h2 class="govuk-prototype-kit-common-templates-contents-list__title">Contents</h2>
+          <ol class="govuk-prototype-kit-common-templates-contents-list__list">
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#reports">Disease surveillance and emerging threats reports</a></li>
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#maps">Livestock population reports and maps</a></li>
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#notes">Information notes</a></li>
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#focus">Focus articles published in journals</a></li>
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#blog">APHA science blog</a></li>
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#videos">Videos</a></li>
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#data">Diagnostic data reports</a></li>
+
+            <li aria-current="true" class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed"><a href="#dashboards">Disease surveillance dashboards</a></li>
+
+
+          </ol>
+        </nav>
+      </aside>
+    </div>
+  </div>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds govuk-prototype-kit-common-templates-mainstream-guide-body">
+
+
+<p>
+You can view the disease surveillance analyses and data collected by APHA to identify new or re-emerging threats to animal and public health.
+</p>
+
+<p>
+Veterinary scanning surveillance at APHA is managed by the Surveillance Intelligence Unit (SIU).
+</p>
+
+<p>
+Read more about how APHA:
+</p>
+
+<ul class="govuk-list govuk-list--bullet">
+
+<li><a href="apha-surveillance">carries out disease surveillance</a></li>
+<li><a href="https://www.gov.uk/government/publications/information-on-data-analysis">analyses surveillance data</a></li>
+</ul>
+
+<h2 class="govuk-heading-m"id="reports">Disease surveillance and emerging threats reports</h2>
+
+<p>
+The SIU publishes periodic reports for livestock and wildlife covering:
+</p>
+
+<ul class="govuk-list govuk-list--bullet">
+<li>new and re-emerging diseases and threats</li>
+<li>changes in disease patterns</li>
+<li>unusual diagnoses</li>
+<li>horizon scanning</li>
+</ul>
+
+<h3 class="govuk-heading-s">Livestock and wildlife reports</h3>
+
+<p>
+Read reports on:
+</p>
+
+<ul class="govuk-list govuk-list--bullet">
+
+<li><a href="https://www.gov.uk/government/publications/avian-gb-disease-surveillance-and-emerging-threats-reports">avian surveillance and emerging threats</a></li>
+<li><a href="https://www.gov.uk/government/publications/cattle-gb-disease-surveillance-and-emerging-threats-reports">cattle surveillance and emerging threats</a></li>
+<li><a href="https://www.gov.uk/government/publications/pig-gb-disease-surveillance-and-emerging-threats-reports">pig surveillance and emerging threats</a></li>
+<li><a href="https://www.gov.uk/government/publications/exotic-and-farmed-species-gb-disease-surveillance-and-emerging-threats-reports">exotic and farmed species surveillance and emerging threats</a></li>
+<li><a href="https://www.gov.uk/government/publications/small-ruminant-gb-disease-surveillance-and-emerging-threats-reports">sheep and goats surveillance and emerging threats</a></li>
+<li><a href="https://www.gov.uk/government/publications/wildlife-gb-disease-surveillance-and-emerging-threats-reports">wildlife surveillance and emerging threats</a></li>
+
+</ul>
+
+<h3 class="govuk-heading-s">Specialist group reports</h3>
+
+<p>
+Read reports on:
+</p>
+
+<ul class="govuk-list govuk-list--bullet">
+
+<li><a href="https://www.gov.uk/government/publications/zoonoses-and-veterinary-public-health-disease-surveillance-reports">zoonoses and veterinary public health threats</a></li>
+<li><a href="https://www.gov.uk/government/publications/chemical-food-safety-reports">chemical food safety in livestock</a></li>
+<li><a href="https://www.gov.uk/government/publications/parasitology-literature-review-and-horizon-scanning">parasitology</a></li>
+
+</ul>
+
+<h2 class="govuk-heading-m"id="maps">Livestock population reports and maps</h2>
+
+<p>
+View population density maps of farm animals in Great Britain published by the Livestock Demographic Data Group (LDDG).
+</p>
+
+<p>
+You can view data and maps for the:
+</p>
+
+<ul class="govuk-list govuk-list--bullet">
+
+<li><a href="URL">cattle population</a></li>
+<li><a href="URL">poultry population</a></li>
+<li><a href="URL">pig population</a></li>
+<li><a href="URL">sheep and goat population</a></li>
+
+</ul>
+
+
+<h2 class="govuk-heading-m"id="notes">Information notes</h2>
+
+<p>
+We publish information notes in response to circumstances in which we feel that vets require further guidance, such as unusual seasonal events, emerging diseases and outbreaks.
+</p>
+
+<p>
+You can view information notes for:
+</p>
+
+<ul class="govuk-list govuk-list--bullet">
+
+<li><a href="URL">cattle</a></li>
+<li><a href="URL">avian</a></li>
+<li><a href="URL">pigs</a></li>
+<li><a href="URL">sheep and goats</a></li>
+<li><a href="URL">wildlife</a></li>
+<li><a href="URL">keeping livestock</a></li>
+
+</ul>
+
+<h2 class="govuk-heading-m"id="focus">Focus articles published in journals</h2>
+
+<p>
+APHA publishes <a href="https://www.gov.uk/government/publications/apha-animal-disease-surveillance-focus-articles">focus articles in Veterinary Record</a> which cover seasonal disease threats and emerging disease trends.
+</p>
+
+<p>
+All articles are open access through toll-free links.
+</p>
+
+<h2 class="govuk-heading-m"id="blog">APHA science blog</h2>
+
+<p>
+Read the <a href="https://aphascience.blog.gov.uk/">APHA science blog</a> – with news and updates from the Animal and Plant Health Agency.
+</p>
+
+<h2 class="govuk-heading-m"id="videos">Videos</h2>
+
+<p>
+Watch videos on the <a href="https://www.youtube.com/@APHAgov">APHA YouTube channel </a> on topics such as:
+</p>
+
+<ul class="govuk-list govuk-list--bullet">
+<li>disease management</li>
+<li>training</li>
+<li>guidance</li>
+<li>interesting cases</li>
+</ul>
+
+<h2 class="govuk-heading-m"id="data">Diagnostic data reports</h2>
+
+<p>
+The SIU stores its data in the Veterinary Investigation Diagnosis Analysis database (VIDA).
+</p>
+
+<p>
+VIDA contains records of every diagnostic submission from livestock and wildlife in Great Britain since 1975.
+</p>
+
+<p>
+Since 2017, APHA has produced an annual VIDA report on Tableau:
+</p>
+
+<ul class="govuk-list govuk-list--bullet">
+
+<li><a href="https://public.tableau.com/app/profile/siu.apha/viz/VIDAAnnualReport2023/VIDAAnnualReport2023
+">VIDA report 2023</a></li>
+<li><a href="https://public.tableau.com/app/profile/siu.apha/viz/VIDAAnnualReport2022/VIDAAnnualReport2022">VIDA report 2022</a></li>
+<li><a href="https://public.tableau.com/app/profile/siu.apha/viz/VIDAAnnualReport2021/VIDAAnnualReport2021">VIDA report 2021</a></li>
+<li><a href="https://public.tableau.com/app/profile/siu.apha/viz/VIDAAnnualReport2020/VIDAAnnualReport2020">VIDA report 2020</a></li>
+<li><a href="https://public.tableau.com/app/profile/siu.apha/viz/VIDAAnnualReport2019/VIDAAnnualReport2019">VIDA report 2019</a></li>
+<li><a href="https://public.tableau.com/app/profile/siu.apha/viz/VIDAAnnualReport2018/VIDAAnnualReport2018">VIDA report 2018</a></li>
+<li><a href="https://public.tableau.com/app/profile/siu.apha/viz/VIDAAnnualReport2017/VIDAAnnualReport2017">VIDA report 2017</a></li>
+</ul>
+
+<p>
+You can access <a href="https://webarchive.nationalarchives.gov.uk/ukgwa/20200807201619/https://www.gov.uk/government/publications/veterinary-investigation-diagnosis-analysis-vida-report/veterinary-investigation-diagnosis-analysis-vida-report">older annual VIDA Reports</a> in the national archives.
+</p>
+
+<h2 class="govuk-heading-m"id="dashboards">Disease surveillance dashboards</h2>
+
+<p>
+You can view dashboards of the animal disease surveillance data collected by APHA for livestock in England and Wales.
+</p>
+
+<p>
+Diagnoses are recorded for the month in which the submissions were received. The dashboards are updated on a monthly basis, adding all diagnoses allocated since the previous month’s update.
+</p>
+
+<p>
+You can view each dashboard on Tableau:
+</p>
+
+<ul class="govuk-list govuk-list--bullet">
+
+<li><a href="https://public.tableau.com/app/profile/siu.apha/viz/CattleDashboard/Overview">cattle disease</a></li>
+<li><a href="https://public.tableau.com/app/profile/siu.apha/viz/PigDashboard/Overview">pig disease</a></li>
+<li><a href="https://public.tableau.com/app/profile/siu.apha/viz/SheepDashboard_/Overview">sheep disease</a></li>
+<li><a href="https://public.tableau.com/app/profile/siu.apha/viz/AvianDashboard/Overview">avian disease</a></li>
+</ul>
+
+<h3 class="govuk-heading-s">Other dashboards</h3>
+
+<p>
+You can also view dashboards on APHA surveillance of:
+</p>
+
+<ul class="govuk-list govuk-list--bullet">
+
+<li><a href="https://public.tableau.com/app/profile/siu.apha/viz/BrachyspirahyodysenteriaeMLSTdashboard/Intro">Brachyspira hyodysenteriae isolate MLST in pigs</a></li>
+<li><a href="https://public.tableau.com/app/profile/siu.apha/viz/Porcinereproductiveandrespiratorysyndrome/PRRS">porcine reproductive and respiratory syndrome</a></li>
+<li><a href="https://public.tableau.com/app/profile/siu.apha/viz/BatRabiesDashboard/Intro">bat rabies</a></li>
+
+</ul>
+
+<h3 class="govuk-heading-s">How to use the dashboards</h3>
+
+<p>
+Watch a youtube video showing you <a href="https://youtu.be/y8gKSRLbAak">how to use the dashboards</a>.
+</p>
+
+<h3 class="govuk-heading-s">Data limitations</h3>
+
+<p>
+The data, dashboards and maps should not be used to make inferences or comparisons about levels of disease in different areas due to the following limitations:
+</p>
+
+<ul class="govuk-list govuk-list--bullet">
+
+<li>
+The data has been collected solely from the GB veterinary diagnostic network. The dashboards do not include diagnoses made by other laboratories. 
+</li>
+
+<li>
+A higher count of diagnoses in a county may occur for several reasons, including:
+</li>
+
+<li>
+more submissions due to a larger number of livestock or livestock holdings
+</li>
+<li>
+increased vigilance among the local farmers and vets in response to a threat
+</li>
+<li>
+diagnostic investigations as part of disease control initiatives being implemented
+</li>
+<li>
+regional increased use of the GB diagnostic network rather than commercial or veterinary practice laboratories
+</li>
+<li>
+Diseases not requiring a laboratory diagnosis or in herds whose veterinary practice has their own diagnostic facilities may be under-represented in the data.
+</li>
+<li>
+Submissions may represent more than one individual animal, and there may be more than one diagnosis allocated for a submission.
+</li>
+
+</ul>
+
+<h3 class="govuk-heading-s">Other data limitations:</h3>
+
+<ul class="govuk-list govuk-list--bullet">
+
+<li>
+APHA periodically has initiatives to collect data about specific diseases which will skew reported levels of disease  
+</li>
+
+<li>
+Particular diagnoses may be affected by a range of factors which can vary over time, such as improved scientific test methods and knowledge of these test methods
+</li>
+
+<li>
+APHA data only includes cases of diagnosed clinical disease. However, SRUC VS includes some non-diagnostic cases. As such, you should exclude any submissions with the codes “Diagnosis not applicable” (code 991) and “Screening– No clinical problem” (code 980) when comparing disease trends.
+</li>
+</ul>      
+      <p></p>
+
+      <nav class="govuk-prototype-kit-common-templates-pagination" role="navigation" aria-label="Pagination">
+
+      <!-- {{ govukPagination({
+        previous: {
+          labelText: "Page 1 title",
+          href: "#"
+        },
+        next: {
+          labelText: "Page 3 title",
+          href: "#"
+        }
+      }) }} -->
+
+      <!-- <p>
+        <a href="#">
+          View a printable version of the whole guide
+        </a>
+      </p> -->
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+
+      <!-- <aside class="govuk-prototype-kit-common-templates-related-items" role="complementary">
+        <h2 class="govuk-heading-m" id="subsection-title">
+          Subsection
+        </h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="govuk-list govuk-!-font-size-16">
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#" class="govuk-!-font-weight-bold">
+                More <span class="govuk-visually-hidden">in Subsection</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside> -->
+
+    </div>
+
+  </main>
+</div>
+
+
+
+
+
+    </div>
+  </div>
+
+{% endblock %}
