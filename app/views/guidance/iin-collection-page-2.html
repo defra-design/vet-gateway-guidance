@@ -1,0 +1,169 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  Import Information Notes
+{% endblock %}
+
+{% block header %}
+  <!-- Blank header with no service name for this page -->
+  {{ govukHeader() }}
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "#"
+      },
+      {
+        text: "Section",
+        href: "#"
+      },
+      {
+        text: "Subsection"
+      }
+    ]
+  }) }}
+
+{% endblock %}
+
+<style>
+
+.info {
+  padding-left: 280px;
+}
+
+</style>
+
+
+{% block content %}
+
+<span class="govuk-caption-l">Collection</span>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-l">Import Information Notes</h1>
+
+      <p class="govuk-body-l">Import Information Notes (IINs) contain requirements for imports from outside the EU and from Member States of the EU, for use by veterinary staff at Border Control Posts.</p>
+
+             
+        <div class="app-c-published-dates " lang="en">
+          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+          <p class="govuk-body-s" style="margin-bottom: 10px">From: <a href="#"><strong>Department for Environment, Food & Rural Affairs</strong></a> and <a href="#"><strong>Animal and Plant Health Agency</strong></a></p>
+        </div>
+
+        &nbsp;
+
+    </div>
+  </div>
+
+  
+
+  <div class="govuk-grid-column-two-thirds" style="margin-left: -1.5%;">
+  <img src="/public/images/emails-image-gov.png">  
+  </div>
+
+
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds govuk-prototype-kit-common-templates-mainstream-guide-body">
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Import Information Notes</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href="iins-live-animals-genetic-material"><strong>Imports of live animals and genetic material</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collection page</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Animal products for human consumption</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collection page</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Animal by-products (ABPs) or products not for human consumption</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collection page</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Miscellaneous</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collection page</p>   
+      
+      &nbsp;&nbsp;
+
+
+
+
+
+
+
+
+
+      <nav class="govuk-prototype-kit-common-templates-pagination" role="navigation" aria-label="Pagination">
+
+      <!-- {{ govukPagination({
+        previous: {
+          labelText: "Page 1 title",
+          href: "#"
+        },
+        next: {
+          labelText: "Page 3 title",
+          href: "#"
+        }
+      }) }} -->
+
+      <!-- <p>
+        <a href="#">
+          View a printable version of the whole guide
+        </a>
+      </p> -->
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+
+      <!-- <aside class="govuk-prototype-kit-common-templates-related-items" role="complementary">
+        <h2 class="govuk-heading-m" id="subsection-title">
+          Subsection
+        </h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="govuk-list govuk-!-font-size-16">
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#" class="govuk-!-font-weight-bold">
+                More <span class="govuk-visually-hidden">in Subsection</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside> -->
+
+    </div>
+
+  </main>
+</div>
+
+
+
+
+
+    </div>
+  </div>
+
+{% endblock %}
