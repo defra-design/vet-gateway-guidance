@@ -1,0 +1,558 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  Import Information Notes
+{% endblock %}
+
+{% block header %}
+  <!-- Blank header with no service name for this page -->
+  {{ govukHeader() }}
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "#"
+      },
+      {
+        text: "Section",
+        href: "#"
+      },
+      {
+        text: "Subsection"
+      }
+    ]
+  }) }}
+
+{% endblock %}
+
+<style>
+
+.info {
+  padding-left: 280px;
+}
+
+</style>
+
+
+{% block content %}
+
+<span class="govuk-caption-l">Collection</span>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-l">Import Information Notes for imports of live animals and genetic material</h1>
+
+      <p class="govuk-body-l">Import Information Notes (IINs) contain requirements for imports from outside the EU and from Member States of the EU, for use by veterinary staff at Border Control Posts.</p>
+
+             
+        <div class="app-c-published-dates " lang="en">
+          <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+          <p class="govuk-body-s" style="margin-bottom: 10px">From: <a href="#"><strong>Department for Environment, Food & Rural Affairs</strong></a> and <a href="#"><strong>Animal and Plant Health Agency</strong></a></p>
+        </div>
+
+        &nbsp;
+
+    </div>
+  </div>
+
+  
+
+  <div class="govuk-grid-column-two-thirds" style="margin-left: -1.5%;">
+  <img src="/public/images/emails-image-gov.png">  
+  </div>
+
+
+
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds govuk-prototype-kit-common-templates-mainstream-guide-body">
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">General information</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>General information - ABP (IIN GEN/3)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Clarifying Information – Imports of Animal Products (IIN GEN/4)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Apiculture (honey, beeswax, royal jelly, propolis or pollen)</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Apiculture products for apiculture use (IIN ABP/13)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Beeswax for technical and cosmetic purposes (IIN ABP/32)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Blood and blood products</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Blood and blood products of equidae for use outside the feed chain (IIN ABP/4A)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Blood products that could be used as feed material (IIN ABP/4B)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Treated and untreated blood products, excluding equidae, for the manufacture of derived products (IIN ABP/4C)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Bones, horns and hooves</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Bones or bone products, horns or horn products, and hooves or hoof products for use other than as feed material, organic fertilisers or soil improvers (IIN ABP/16)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Bristles, feathers, fur, hair and wool</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Untreated pig bristles from African Swine Fever free countries (IIN ABP/7A)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Treated pig bristles from countries not free of African Swine Fever (IIN ABP/7B)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Treated feathers from 1 July 2018 (IIN ABP/22B)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href="iin-import-untreated-wool-hair"><strong>Untreated wool and hair (IIN ABP/23A)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Treated, wool, hair and fur (IIN ABP/23B)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Deer urine or faeces, and lures</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Prohibitions on import of deer urine/faeces and lures (IIN ABP/44)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Egg products</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Egg products not intended for human consumption that could be used as feed (IIN ABP/15)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Educational Tools</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Certain processed ABP for use or resale as educational tools (IIN ABP/40)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Fats</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Wool grease or fatty substances derived from (including lanolin and lanolin alcohol) (IIN ABP/37)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Rendered fats (excluding fish oil) to be used as feed material (IIN ABP/10A)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Rendered fats not for use as feed (IIN ABP/10B)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Fat derivatives to be used outside the feed chain (IIN ABP/14A)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Fat derivatives to be used as feed or outside the feed chain (IIN ABP/14B)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Fish oil</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Fish oil for use as feed material or for purposes outside the feed chain (IIN ABP/9)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Game trophies</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Treated game trophies and other preparations of birds and ungulates (IIN ABP/6A)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Untreated game trophies or other preparations of birds and ungulates (IIN ABP/6B)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Treated game trophies or other preparations of animals where health certification is not required (IIN ABP/6C)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Gelatine and collagen</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Gelatine not intended for human consumption from third countries (IIN ABP/11A)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Collagen not intended for human consumption from third countries (IIN ABP/11B)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Hides and skin</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Fresh or chilled hides and skins of ungulates (IIN ABP/5A)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Treated hides and skins of ungulates (IIN ABP/5B)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Treated hides and skins of ruminants and of equidae (IIN ABP/5C)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Hydrolysed proteins, dicalcium phosphate and tricalcium phosphate</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Hydrolysed proteins (IIN ABP/12A)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Dicalcium phosphate (IIN ABP/12B)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Tricalcium phosphate (IIN ABP/12C)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Intermediate products</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Intermediate products (IIN ABP/20)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Manure, fertilisers and soil improvers</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Processed manure, derived products from processed manure and guano from bats (IIN ABP/17)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Horns or horn products and hooves or hoof products for the production of organic fertilisers or soil improvers (IIN ABP/18)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Sea bird guano for use as manure or soil improver (IIN ABP/21)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Milk or milk products, and colostrum or colostrum products</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Milk, milk based products, milk derived products not for human consumption (IIN ABP/2A)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Colostrum, colostrum products from bovine animals not for human consumption (IIN ABP/2B)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Pet food and feed for other animals</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Canned pet food (IIN ABP/3A)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Processed pet food other than canned pet food (IIN ABP/3B)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Dog chews (IIN ABP/3C)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Raw petfood for direct sale (IIN ABP/3D)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Flavouring innards for the manufacture of pet food (IIN ABP/3E)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Animal by-products for the manufacture of pet food (IIN ABP/3F)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Animal by-products to be fed to fur animals (IIN ABP/24)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Certain materials for purposes other than feeding to farmed land animals (IIN ABP/26)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Rodents and Lagomorphs imported for feeding to Reptiles, non-wild Birds of Prey and Zoo Animals (IIN ABP/27)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Fishing bait for commercial and recreational use (IIN ABP/28)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Processed finished feed for pet ornamental aquatic vertebrates and invertebrates reptiles and amphibians (IIN ABP/43)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Processed animal protein (PAP)</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Processed animal protein not for human consumption (IIN ABP/1)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Processed animal protein from farmed insects (IIN ABP/45)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Products for technical and pharmaceutical use</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Animal by-products to be used for purposes outside the feed chain (IIN ABP/8A)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Certain category 1 materials for certain uses from third countries (IIN ABP/25)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Certain processed ABP containing ABP used as a stabiliser/carrier at a concentration of 3% or less (IIN ABP/42)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Laboratory Reagents and derived products for pharmaceutical use (IIN ABP/46)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Milk or milk-based products and blood products (not exceeding 10% concentration) for use as a stabiliser or carrier for certain materials - commercial Use (IIN ABP/47)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Milk or milk-based products and blood products (not exceeding 10% concentration) for use as a stabiliser or carrier for certain materials - research and diagnostic samples (IIN ABP/48)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+
+      &nbsp;
+
+
+      <h2 class="govuk-heading-m" style="margin-bottom: 2%; font-size: 27px;">Research or trade samples, and display items</h2>
+
+      <p></p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Trade samples from third countries (IIN ABP/8B)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Display items from third countries (IIN ABP/29)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+
+      <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+      <p style="margin-top: -1.7%;"><a href=""><strong>Research and diagnostic samples from third countries (IIN ABP/30)</strong></a></p>
+      <p class="govuk-body-s" style="margin-top: -2.5%;">9 October 2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statutory guidance</p>
+      
+
+
+
+
+
+
+
+
+
+
+
+      <nav class="govuk-prototype-kit-common-templates-pagination" role="navigation" aria-label="Pagination">
+
+      <!-- {{ govukPagination({
+        previous: {
+          labelText: "Page 1 title",
+          href: "#"
+        },
+        next: {
+          labelText: "Page 3 title",
+          href: "#"
+        }
+      }) }} -->
+
+      <!-- <p>
+        <a href="#">
+          View a printable version of the whole guide
+        </a>
+      </p> -->
+
+    </div>
+
+    <div class="govuk-grid-column-one-third">
+
+      <!-- <aside class="govuk-prototype-kit-common-templates-related-items" role="complementary">
+        <h2 class="govuk-heading-m" id="subsection-title">
+          Subsection
+        </h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="govuk-list govuk-!-font-size-16">
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Related link
+              </a>
+            </li>
+            <li>
+              <a href="#" class="govuk-!-font-weight-bold">
+                More <span class="govuk-visually-hidden">in Subsection</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside> -->
+
+    </div>
+
+  </main>
+</div>
+
+
+
+
+
+    </div>
+  </div>
+
+{% endblock %}
